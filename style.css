@@ -45,7 +45,6 @@ nav a{
 
 a.active,a:hover{
   border: 1px solid white;
-  transition: .5s;
 }
 
 nav #icon{
@@ -97,7 +96,7 @@ nav #icon{
     border: none;
     color: #3498db;
   }
-  nav ul.active{
+  nav ul.show{
     left: 0;
   }
 }
