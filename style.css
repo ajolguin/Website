@@ -1,14 +1,15 @@
 *{
   padding: 0;
   margin: 0;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style: none;
 }
 
 .col {
-  padding-left:0px;
+  padding-left: 0px;
   padding-right: 0px;
 }
+
 .container-fluid {
   padding-left: 0px;
   padding-right: 0px;
@@ -20,7 +21,7 @@
 }
 
 body{
-  font-family: helvetica;
+  font-family: helvetica !important;
 }
 
 nav{
@@ -30,20 +31,20 @@ nav{
 }
 
 h1{
-  font-size: 7vw;
-  font-weight: bold;
+  font-size: 4vw !important;
+  font-weight: bold !important;
   color: #537895;
 }
 
 h3{
-  font-size: 3vw;
-  font-weight: lighter;
+  font-size: 2vw !important;
+  font-weight: lighter !important;
   color: #537895;
 }
 
 label.logo{
-  font-size: 30px;
-  font-weight: light;
+  font-size: 30px !important;
+  font-weight: bolder !important;
   color: #707070;
   padding: 0 100px;
   line-height: 80px;
@@ -62,8 +63,7 @@ nav li{
 
 nav a{
   color: #707070;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 18px !important;
   border: 1px solid transparent;
   padding: 7px 10px;
   border-radius: 3px;
@@ -75,7 +75,7 @@ a.active,a:hover{
 
 nav #icon{
   color: #707070;
-  font-size: 30px;
+  font-size: 30px !important;
   line-height: 80px;
   float: right;
   margin-right: 40px;
@@ -103,7 +103,7 @@ nav #icon{
   nav ul{
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     background: #2f3640;
     top: 80px;
     left: -100%;
@@ -123,37 +123,38 @@ nav #icon{
     color: #3498db;
   }
   nav ul.show{
+    z-index: 9;
     left: 0;
   }
 }
 
-#hero{
+.hero{
   background-color: #FCF9F9;
-  height: calc(100vh - 80px);
-  background-image: url("images/download\ \(7\).png");
-  background-size: contain;
+  height: 75vh;
+  background-image: url("images/download\ \(7\).png"), url("images/download\ \(6\).png");
+  background-size: 35%;
   background-repeat: no-repeat;
-  background-position: -10% -10%;
+  background-position: -20% -15%, bottom right;
   padding: 0;
 }
 
+.headerimg{
+  width: 50%;;
+  margin-top: 18px;
+  float: left;
+  vertical-align: bottom;
+}
+
 #heroimg{
-  width: 100%;
+  float: right;
 }
 
-.bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #FFFFFF;
-  padding: 90px 90px
-  ;
+#headlines{
+  float: left;
+  width: 50%;
+  margin-top: 10%;
 }
 
-.bg-left {
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
-}
-
-.bg-right {
-  background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
+#heroimg{
+  width: 80%;
 }
