@@ -1,1 +1,1 @@
-Initial commit, work begins now :)
+Developing a resume portfolio website using HTML, CSS, JavaScript/jQuery, React, Bootstrap
