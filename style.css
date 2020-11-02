@@ -6,19 +6,31 @@
 }
 
 body{
-  font-family: courier;
+  font-family: helvetica;
 }
 
 nav{
   height: 80px;
   width: 100%;
-  background: black;
+  background: white;
+}
+
+h1{
+  font-size: 7vw;
+  font-weight: bold;
+  color: #537895;
+}
+
+h3{
+  font-size: 3vw;
+  font-weight: lighter;
+  color: #537895;
 }
 
 label.logo{
   font-size: 30px;
   font-weight: light;
-  color: white;
+  color: #707070;
   padding: 0 100px;
   line-height: 80px;
 }
@@ -35,7 +47,7 @@ nav li{
 }
 
 nav a{
-  color: white;
+  color: #707070;
   font-size: 18px;
   text-transform: uppercase;
   border: 1px solid transparent;
@@ -44,11 +56,11 @@ nav a{
 }
 
 a.active,a:hover{
-  border: 1px solid white;
+  border: 1px solid #707070;
 }
 
 nav #icon{
-  color: white;
+  color: #707070;
   font-size: 30px;
   line-height: 80px;
   float: right;
@@ -70,7 +82,7 @@ nav #icon{
   }
 }
 
-@media (max-width: 909px){
+@media (max-width: 1112px){
   nav #icon{
     display: block;
   }
@@ -100,8 +112,20 @@ nav #icon{
     left: 0;
   }
 }
-section{
-  background: url(code.jpg) no-repeat;
+
+#hero{
+  background-color: #FCF9F9;
   background-size: cover;
   height: calc(100vh - 80px);
+}
+
+#headlines{
+  float: right;
+  margin: 200px 75px 0px 0px;
+}
+
+#heroimage img{
+  vertical-align: bottom;
+  width: 50%;
+  height: 50%;
 }
