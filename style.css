@@ -96,7 +96,7 @@ nav #icon{
   }
 }
 
-@media (max-width: 1112px){
+@media (max-width: 1120px){
   nav #icon{
     display: block;
   }
@@ -144,7 +144,7 @@ nav #icon{
 }
 
 #heroimg{
-  height: -webkit-fill-available;
+  border-radius: 50%;
 }
 
 #headlines{
