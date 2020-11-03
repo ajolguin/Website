@@ -37,13 +37,13 @@ h1{
 }
 
 h3{
-  font-size: 2vw !important;
+  font-size: 1.5vw !important;
   font-weight: lighter !important;
   color: #537895;
 }
 
 label.logo{
-  font-size: 30px !important;
+  font-size: 35px !important;
   font-weight: bolder !important;
   color: #707070;
   padding: 0 100px;
@@ -63,7 +63,7 @@ nav li{
 
 nav a{
   color: #707070;
-  font-size: 18px !important;
+  font-size: 24px !important;
   border: 1px solid transparent;
   padding: 7px 10px;
   border-radius: 3px;
@@ -128,33 +128,27 @@ nav #icon{
   }
 }
 
-.hero{
+.jumbotron{
   background-color: #FCF9F9;
-  height: 75vh;
+  height: 77vh;
   background-image: url("images/download\ \(7\).png"), url("images/download\ \(6\).png");
   background-size: 35%;
   background-repeat: no-repeat;
-  background-position: -20% -15%, bottom right;
+  background-position: -20% -15%, 105% 115%;
   padding: 0;
 }
 
-.headerimg{
-  width: 50%;;
-  margin-top: 18px;
-  float: left;
-  vertical-align: bottom;
+#herorow{
+  height: 75vh;
+  width: 100%;
 }
 
 #heroimg{
-  float: right;
+  height: -webkit-fill-available;
 }
 
 #headlines{
-  float: left;
-  width: 50%;
   margin-top: 10%;
-}
-
-#heroimg{
-  width: 80%;
+  position: relative;
+  left: 70px;
 }
