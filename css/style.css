@@ -15,6 +15,13 @@
     padding: 1rem 20rem;
 }
 
+.header_area .main-menu .navbar .navbar-brand{
+    font: normal 600 20px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
 .header_area .main-menu .nav-item .nav-link{
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
@@ -71,3 +78,20 @@
 }
 
 /* end banner area */
+
+/* start about area */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 10px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: 0.4rem 0;
+}
+
+/* end about area */
