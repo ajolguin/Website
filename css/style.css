@@ -82,7 +82,7 @@
 /* start about area */
 
 .site-main .about-area{
-    padding: 8rem 5rem;
+    padding: 10rem 5rem 5rem 5rem;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -95,3 +95,21 @@
 }
 
 /* end about area */
+
+/*start education area */
+
+.site-main .education-area{
+    padding: 0 8rem 5em 8rem;
+}
+
+.site-main .education-area .education-title h2 > span{
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 10px;
+}
+
+.site-main .education-area .education-title .paragraph > p{
+    padding: 0.4rem 0;
+}
+
+
+/* end education area */
