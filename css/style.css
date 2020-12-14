@@ -116,17 +116,29 @@
 
 /* start experiences area */
 
-.experiences{
-    padding: 2px 16px;
+.site-main .experiences-area{
+    padding: 0 8rem 5em 8rem;
 }
-.card {
+
+.site-main .experiences-area .experiences-title h2 > span{
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 10px;
+}
+
+.site-main .experiences-area .col{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.site-main .experiences-area .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
+    padding: 2rem 2rem;
   }
   
-  .card:hover {
+  .site-main .experiences-area .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
