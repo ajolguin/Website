@@ -107,6 +107,10 @@
     letter-spacing: 10px;
 }
 
+.site-main .education-area .education-title .paragraph{
+    margin-right: 5%;
+}
+
 .site-main .education-area .education-title .paragraph > p{
     padding: 0.4rem 0;
 }

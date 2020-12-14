@@ -31,13 +31,31 @@
 
 /* if the viewport is equal to 767px or less than that */ 
 @media only screen and (max-width: 767px){
-    .site-main .site-banner .site-title h4{
-        font-size: 1rem;
+    .site-main .education-area,
+    .site-main .experiences-area{
+        padding: 3% 4%;
     }
 
-    .site-main .about-area .about-title h2 > span{
-        font-size: 31px;
-        letter-spacing: 10px;
+    .site-main .about-area .about-title h2,
+    .site-main .education-area .education-title h2,
+    .site-main .experiences-area .experiences-title h2{
+        text-align: center;
+    }
+
+    .site-main .about-area .about-title h2 > span,
+    .site-main .education-area .education-title h2 > span,
+    .site-main .experiences-area .experiences-title h2 > span{
+        font-size: 36px;
+        letter-spacing: 5px;
+    }
+
+    .site-main .about-area,
+    .site-main .education-area{
+        margin-bottom: 5%;
+    }
+    
+    .site-main .site-banner .site-title h4{
+        font-size: 1rem;
     }
 
     .site-main .site-banner .site-buttons .primary-button{
@@ -48,14 +66,6 @@
     .site-main .site-banner .site-buttons .secondary-button{
         width: 92%;
         margin-bottom: 30%;
-    }
-
-    .site-main .about-area{
-        margin-bottom: 5%;
-    }
-
-    .site-main .about-area .about-title h2{
-        text-align: center;
     }
 
     .site-main .about-area .about-title .paragraph .para{
@@ -71,18 +81,8 @@
         display: none;
     }
 
-    .site-main .brand-area .experience-area .years-area{
-        padding-left: 1%;
-        width: 49%;
-    }
-
-    .site-main .brand-area .experience-area .bg-panel{
-        margin-left: 30%;
-        width: 80%;   
-    }
-
-    .site-main .brand-area .experience-area .call-area{
-        padding-left: 3%;
+    .site-main .education-area .education-title h3{
+        font-size: 28px;
     }
 
     .site-main .project-area .button-group button{
