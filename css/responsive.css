@@ -12,6 +12,10 @@
     }
 
     .site-main .site-banner .site-title h1{
+        font-size: 1rem;
+    }
+
+    .site-main .site-banner .site-title .title-text{
         font-size: 41px;
     }
 
@@ -25,12 +29,46 @@
 
 }
 
+/* if the viewport is equal to 767px or less than that */ 
+@media only screen and (max-width: 767px){
+    .site-main .site-banner .site-title h4{
+        font-size: 1rem;
+    }
 
-/* if the viewport is equal to 340px or less than that */ 
-@media only screen and (max-width: 792px){
     .site-main .about-area .about-title h2 > span{
         font-size: 31px;
         letter-spacing: 10px;
+    }
+
+    .site-main .site-banner .site-buttons .primary-button{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .site-main .site-banner .site-buttons .secondary-button{
+        width: 92%;
+        margin-bottom: 30%;
+    }
+
+    .site-main .about-area{
+        margin-bottom: 5%;
+    }
+
+    .site-main .about-area .about-title h2{
+        text-align: center;
+    }
+
+    .site-main .about-area .about-title .paragraph .para{
+        text-align: justify;
+    }
+
+    .site-main .about-area .paragraph .primary-button{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .site-main .site-banner .banner-image{
+        display: none;
     }
 
     .site-main .brand-area .experience-area .years-area{
