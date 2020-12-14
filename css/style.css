@@ -83,6 +83,7 @@
 
 .site-main .about-area{
     padding: 10rem 5rem 5rem 5rem;
+    margin-bottom: 5%;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -100,6 +101,7 @@
 
 .site-main .education-area{
     padding: 0 8rem 5em 8rem;
+    margin-bottom: 5%;
 }
 
 .site-main .education-area .education-title h2 > span{
