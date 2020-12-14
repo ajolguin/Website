@@ -161,12 +161,8 @@
     text-transform: uppercase;
 }
 
-.site-main .project-area .button-group button + button{
-    padding-left: 3rem;
-}
-
 .site-main .project-area .grid .our-project > .title h4{
-    font: normal 700 25px/12px var(--roboto);
+    font: normal 700 25px/26px var(--roboto);
 }
 
 .site-main .project-area .grid .our-project .img a:hover img{
@@ -193,7 +189,7 @@
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
-    margin: 5rem .5rem;
+    margin: .5rem .5rem;
     transition: box-shadow .7s ease;
 }
 
