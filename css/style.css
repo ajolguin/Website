@@ -222,9 +222,10 @@
 /* start contact area */
 
 .site-main .contact-area .contact{
-    background: url(../img/subscribe-bg.png) no-repeat;
+    background: var(--gradient-color) no-repeat;
     padding: 10rem 0;
     margin: 3rem auto;
+    background-size: cover;
 }
 
 .site-main .contact-area .contact .contact-title h4{
@@ -255,6 +256,11 @@
     color: black;
     font: normal 500 17px/20px var(--roboto);
     padding: 0.7rem 2rem;
+}
+
+.site-main .contact-area .submit-column{
+    display: flex;
+    align-items: center;
 }
 
 /* end contact area */
