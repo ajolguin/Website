@@ -77,6 +77,14 @@
     width: 90rem;
 }
 
+.site-main .site-buttons .button{
+    width: 45%;
+}
+
+.site-main .site-buttons .primary-button{
+    margin-right: 3%
+}
+
 /* end banner area */
 
 /* start about area */
