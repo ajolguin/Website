@@ -44,4 +44,5 @@ $(document).ready(function(){
     navbarFixed();
 
     AOS.init();
+
 });
