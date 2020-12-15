@@ -15,6 +15,10 @@
     padding: 1rem 20rem;
 }
 
+.header_area .main-menu .navbar-collapse{
+    width: auto;
+}
+
 .header_area .main-menu .navbar .navbar-brand{
     font: normal 600 20px/2px var(--roboto);
     text-transform: uppercase;
@@ -242,13 +246,14 @@
     width: 400px;
     padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
-    background: transparent;
-    color: white;
+    background: white;
+    color: black;
     font: normal 500 17px/20px var(--roboto);
 }
 
-.site-main .contact-area .contact form .input-textbox input::placeholder{
-    color: whitesmoke;
+.site-main .contact-area .contact form .input-textbox input::placeholder,
+.site-main .contact-area .contact form .input-textbox textarea::placeholder{
+    color: var(--text-color);
 }
 
 .site-main .contact-area .contact form .btn-submit button{
@@ -258,9 +263,8 @@
     padding: 0.7rem 2rem;
 }
 
-.site-main .contact-area .submit-column{
-    display: flex;
-    align-items: center;
+.site-main .contact-area .contact form .submit-column{
+    text-align: right;
 }
 
 /* end contact area */
