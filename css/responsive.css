@@ -101,7 +101,7 @@
 
     .site-main .contact-area .contact form .input-textbox input{
         width: 19rem !important;
-        margin: 0 9.5%;
+        margin: 0 auto;
         background-color: whitesmoke;
     }
 
@@ -114,8 +114,13 @@
         padding: 4rem 0;
     }
 
+    .site-main .contact-area .contact .row{
+        width: 100%;
+        margin: auto;
+    }
+
     .site-main .contact-area .contact form .submit-column .btn-submit{
-        margin-right: 40px;
+        margin-right: 25px;
     }
 }
 
