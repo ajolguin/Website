@@ -63,13 +63,9 @@
 
     .site-main .site-banner .site-buttons .primary-button{
         width: 100%;
-    }
-
-    .site-main .site-banner .site-buttons .secondary-button{
-        width: 97%;
         margin-bottom: 30%;
     }
-
+    
     .site-main .about-area .about-title .paragraph .para{
         text-align: justify;
     }
