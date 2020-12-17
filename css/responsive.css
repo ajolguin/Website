@@ -32,7 +32,7 @@
 /* if the viewport is equal to 767px or less than that */ 
 @media only screen and (max-width: 767px){
 
-    div{
+    html{
         overflow-x: hidden !important;
     }
 
@@ -44,6 +44,10 @@
     .site-main .experiences-area,
     .site-main .services-area{
         padding: 3% 4%;
+    }
+
+    .site-main .project-area{
+        padding: 0 4%;
     }
 
     .site-main .about-area .about-title h2,
