@@ -31,6 +31,15 @@
 
 /* if the viewport is equal to 767px or less than that */ 
 @media only screen and (max-width: 767px){
+
+    div{
+        overflow-x: hidden !important;
+    }
+
+    .site-main .site-banner .site-title h3{
+        padding-top: 15%;
+    }
+
     .site-main .education-area,
     .site-main .experiences-area,
     .site-main .services-area{
