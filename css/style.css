@@ -22,7 +22,7 @@
 .header_area .main-menu .navbar .navbar-brand{
     font: normal 600 20px/2px var(--roboto);
     text-transform: uppercase;
-    padding: 1.7rem;
+    padding: 1.7rem 0;
     color: var(--title-color);
 }
 
@@ -134,7 +134,7 @@
 /*start education area */
 
 .site-main .education-area{
-    padding: 0 8rem 5em 8rem;
+    padding: 8rem 8rem 5em 8rem;
     margin-bottom: 5%;
 }
 

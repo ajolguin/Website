@@ -36,11 +36,8 @@
 
     .site-main .education-area,
     .site-main .experiences-area,
+    .site-main .project-area
     .site-main .services-area{
-        padding: 3% 4%;
-    }
-
-    .site-main .project-area{
         padding: 7rem 4%;
     }
 
