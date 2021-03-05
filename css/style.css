@@ -89,6 +89,28 @@
     margin-right: 3%
 }
 
+.typeWriter {
+    overflow: hidden;
+    border-right: .2em solid var(--primary-color); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15rem; /* Adjust as needed */
+    animation: 
+      typing 3s steps(50, end),
+      blink-caret .75s step-end infinite;
+    display: inline-block;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: var(--primary-color); }
+  }
+
 /* end banner area */
 
 /* start about area */
@@ -192,7 +214,7 @@
 /* start services area */
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 0rem 2rem 6rem 0rem;
 }
 
 .site-main .services-area .services-title{
@@ -217,56 +239,14 @@
 
 /* end services area */
 
-/* start contact area */
-
-.site-main .contact-area .contact{
-    background: var(--gradient-color) no-repeat;
-    padding: 10rem 0;
-    margin: 3rem auto;
-    background-size: cover;
-}
-
-.site-main .contact-area .contact .contact-title h4{
-    font: normal 700 30px/30px var(--roboto);
-    color: whitesmoke;
-}
-
-.site-main .contact-area .contact .contact-title p{
-    color: whitesmoke;
-    padding: 1rem 4rem;
-}
-
-.site-main .contact-area .contact form .input-textbox input{
-    width: 400px;
-    padding: 1.5rem 1rem;
-    border: 1px solid whitesmoke;
-    background: white;
-    color: black;
-    font: normal 500 17px/20px var(--roboto);
-}
-
-.site-main .contact-area .contact form .input-textbox input::placeholder,
-.site-main .contact-area .contact form .input-textbox textarea::placeholder{
-    color: var(--text-color);
-}
-
-.site-main .contact-area .contact form .btn-submit button{
-    background: whitesmoke;
-    color: black;
-    font: normal 500 17px/20px var(--roboto);
-    padding: 0.7rem 2rem;
-}
-
-.site-main .contact-area .contact form .submit-column{
-    text-align: right;
-}
-
-/* end contact area */
-
 /* footer area */
 .fab{
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.icons{
+    margin-right: 0.5rem;
 }

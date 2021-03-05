@@ -53,9 +53,6 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#services">Services</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-                </li>
               </ul>
             </div>
           </div>
@@ -75,10 +72,10 @@
           <div class="col-lg-6 col-md-12 site-title">
             <h3 class="title-text">Hello</h3>
             <h1 class="title-text text-uppercase">I'm Adrian Olguin</h1>
-            <h4 class="title-text text-uppercase">Web Developer & UI/UX Designer</h4>
+            <h4 class="title-text text-uppercase typeWriter">Web Dev & UI/UX Designer :)</h4>
             <div class="site-buttons">
               <div class="d-flex flex-row flex-wrap">
-                <button class="btn button primary-button mr-4 text-uppercase" onclick="contactFunction()">Contact Me</button>
+                <button class="btn button primary-button mr-4 text-uppercase"><a href="mailto:adrian@aolguin.com">Contact Me</a></button>
               </div>
             </div>
           </div>
@@ -419,7 +416,7 @@
                               <img src="./img/services/s4.png" alt="Services-4">
                           </div>
                           <div class="card-body text-center">
-                              <h5 class="card-title text-uppercase font-roboto">seo optimize</h5>
+                              <h5 class="card-title text-uppercase font-roboto">seo</h5>
                               <p class="card-text text-secondary">
                                   Experience with high-ranking google search websites using Yoast SEO, Google AdWords and Analytics
                               </p>
@@ -432,56 +429,25 @@
   </section>
 
 <!-- ========= End Services Area ========== -->
-
-<!-- ========= Start Contact Area ========== -->
-
-<section class="contact-area" id="contact">
-  <div class="contact">
-    <div class="row">
-      <div class="col-lg-12 text-center contact-title">
-        <h4 class="text-uppercase">Let's keep in touch!</h4>
-        <p class="para">
-          Have any questions? Please fill out the form below and I will respond as soon as possible!
-        </p>
-      </div>
-    </div>
-
-    <div class="d-sm-flex justify-content-center">
-      <form id="contact-form">
-        <div class="row d-flex flex-row flex-wrap">
-          <div class="input-textbox">
-            <input type="text" name="name" id="inputName" class="form-control mb-3 w-100" placeholder="Name">
-            <input type="text" name="email" id="inputEmail" class="form-control mb-3 w-100" placeholder="Email">
-            <textarea name="message" id="inputMessage" class="form-control mb-5 h-50" placeholder="Message"></textarea>
-          </div>
-          <div class="submit-column float-right">
-            <div class="btn-submit">
-              <button type="submit" class="btn btn-success mt-5">Submit</button>
-            </div>
-          </div>
-        </div>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- ========= End Contact Area ========== -->
-
  
 </main>
 <!-- ========= End Main Area ========== -->
 
+<!-- ========= Start Footer Area ========== -->
+
 <footer class="footer-area">
-  <div class="container pb-3">
+  <div class="container pb-5">
     <div>
       <div class="social text-center">
         <h5 class="text-uppercase">Follow Me</h5>
-        <a href="http://www.linkedin.com/in/ajolguin"><i class="fab fa-linkedin fa-3x pr-2"></i></a>
+        <a href="http://www.linkedin.com/in/ajolguin"><i class="fab fa-linkedin fa-3x icons"></i></a>
         <a href="http://www.github.com/ajolguin"><i class="fab fa-github fa-3x"></i></a>
       </div>
     </div>
   </div>
 </footer>
+
+<!-- ========= End Footer Area ========== -->
 
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -503,14 +469,6 @@
     <script src="./js/main.js"></script>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- button functionality -->
-    <script>
-      function contactFunction(){
-          var contactSection = document.getElementById("contact");
-          contactSection.scrollIntoView();
-      }
-    </script>
 
 
   </body>

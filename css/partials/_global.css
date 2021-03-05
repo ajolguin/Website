@@ -26,9 +26,18 @@
     box-shadow: var(--box-shadow);
 }
 
+.button.primary-button a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .button.primary-button:hover{
     background: whitesmoke;
     background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button:hover a{
     color: black;
 }
 

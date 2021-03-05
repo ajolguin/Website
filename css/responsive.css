@@ -2,11 +2,8 @@
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
-    .site-main .contact-area .contact .contact-title,
-    .site-main .contact-area .contact .contact-title p, h4,
-    .site-main .services-area,
-    .site-main .contact-area .contact
-    {
+    h4,
+    .site-main .services-area{
         padding: 2%;
         margin: 0%;
     }
@@ -17,10 +14,6 @@
 
     .site-main .site-banner .site-title .title-text{
         font-size: 41px;
-    }
-
-    .site-main .contact-area .contact form .input-textbox input{
-        width: 15rem    !important;
     }
 
     .site-main > .services-area .services{
@@ -109,29 +102,12 @@
         padding: 0%;
     }
 
-    .site-main .contact-area .contact form .input-textbox input{
-        width: 19rem !important;
-        margin: 0 auto;
-        background-color: whitesmoke;
-    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 90% }
+      }
 
-    .site-main .contact-area .contact form .input-textbox textarea{
-        width: 19rem !important;
-        margin: 0 auto;
-    }
 
-    .site-main .contact-area .contact{
-        padding: 4rem 0;
-    }
-
-    .site-main .contact-area .contact .row{
-        width: 100%;
-        margin: auto;
-    }
-
-    .site-main .contact-area .contact form .submit-column .btn-submit{
-        margin-right: 25px;
-    }
 }
 
 
