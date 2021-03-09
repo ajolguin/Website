@@ -26,7 +26,11 @@
 @media only screen and (max-width: 767px){
 
     html{
-        overflow-x: hidden !important;
+        overflow-x: visible !important;
+        width: 100%;
+    }
+
+    .header_area .main-menu .navbar{
         width: 100%;
     }
 
@@ -49,7 +53,9 @@
 
     .site-main .about-area .about-title h2 > span,
     .site-main .education-area .education-title h2 > span,
-    .site-main .experiences-area .experiences-title h2 > span{
+    .site-main .projects-area .projects-title h2 > span,
+    .site-main .experiences-area .experiences-title h2 > span,
+    .site-main .services-area .services-title h2 > span{
         font-size: 36px;
         letter-spacing: 5px;
     }
@@ -111,7 +117,7 @@
 @media only screen and (max-width: 1096px){
 
     .site-main .site-banner .site-title h1{
-        font-size: 3em !important;
+        font-size: 3em;
     }
 
 
