@@ -187,7 +187,16 @@
 /* start projects area */
 
 .site-main .project-area{
-    padding: 7rem 0;
+    padding: 7rem 8rem 7rem 8rem;
+}
+
+.site-main .project-area .projectPhotos{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.site-main .project-area .site-buttons .button{
+    width: auto;
 }
 
 .site-main .project-area .grid{

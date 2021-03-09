@@ -68,6 +68,16 @@ p.para{
     font: normal 500 18px/28px var(--roboto);
 }
 
+ul{
+    padding-left: 1rem;
+}
+
+li{
+    color: var(--text-color);
+    font: normal 500 18px/28px var(--roboto);
+
+}
+
 .font-roboto{
     font-family: var(--roboto);
 }

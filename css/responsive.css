@@ -40,7 +40,7 @@
 
     .site-main .education-area,
     .site-main .experiences-area,
-    .site-main .project-area
+    .site-main .project-area,
     .site-main .services-area{
         padding: 7rem 4%;
     }
@@ -151,5 +151,10 @@
         padding: 3% 4%;
     }
 
+}
 
+@media only screen and (max-width: 2000px){
+    .site-main .project-area .site-buttons{
+        margin-top: 5% !important;
+    }
 }
