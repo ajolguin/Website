@@ -39,10 +39,13 @@
     }
 
     .site-main .education-area,
-    .site-main .experiences-area,
-    .site-main .project-area,
     .site-main .services-area{
         padding: 7rem 4%;
+    }
+
+    .site-main .project-area,
+    .site-main .experiences-area{
+        padding: 7rem 4% 0 4%
     }
 
     .site-main .about-area .about-title h2,
