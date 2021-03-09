@@ -85,10 +85,6 @@
         margin: 0 auto;
     }
 
-    .site-main .site-banner .banner-image{
-        display: none;
-    }
-
     .site-main .education-area .education-title h3{
         font-size: 28px;
     }
@@ -114,8 +110,27 @@
         margin-bottom: 5%;
     }
 
+    .site-main .about-area .about-image{
+        content: url("/img/IMG_3999.JPG");
+        width: 100%;
+        margin: 0 auto;
+    }
+
 
 }
+
+@media only screen and (max-width: 990px){
+    .site-main .site-banner .banner-image{
+        display: none;
+    }
+
+    .site-main .about-area .about-image{
+        content: url("/img/IMG_3999.JPG");
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
 
 /* if the viewport is equal to 1356px or less than that */ 
 @media only screen and (max-width: 1096px){

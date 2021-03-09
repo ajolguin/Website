@@ -77,8 +77,8 @@
 }
 
 .site-main .site-banner .banner-image > img {
-    padding: 7rem 0;
-    width: 90rem;
+    padding: 7rem 7rem;
+    width: 100%;
 }
 
 .site-main .site-buttons .button{
@@ -126,6 +126,10 @@
 
 .site-main .about-area .about-title .paragraph > p{
     padding: 0.4rem 0;
+}
+
+.site-main .about-area .about-image{
+    width: 75%;
 }
 
 /* end about area */
