@@ -42,12 +42,11 @@ $(document).ready(function(){
     navbarFixed();
 
     var i = 0;
-    var txt = "Web Developer & UI/UX Designer"
     var speed = 50;
 
     function typeWriter(){
         if (i < txt.length) {
-            document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+            document.getElementById("typeWriter").innerHTML;
             i++;
             setTimeout(typeWriter, speed);
           }
