@@ -132,6 +132,11 @@
     width: 75%;
 }
 
+.site-main .about-area .about-image img{
+    display: block;
+    margin: auto;
+}
+
 /* end about area */
 
 
