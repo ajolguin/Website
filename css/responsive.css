@@ -110,6 +110,10 @@
         to { width: 92% }
       }
 
+    .site-main .project-area .site-buttons .button{
+        margin-bottom: 5%;
+    }
+
 
 }
 
