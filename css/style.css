@@ -117,7 +117,6 @@
 
 .site-main .about-area{
     padding: 10rem 5rem 5rem 5rem;
-    margin-bottom: 5%;
 }
 
 .site-main .about-area .about-title h2 > span{
@@ -131,8 +130,9 @@
 
 /* end about area */
 
-/*start education area */
 
+/*start education area */
+/*
 .site-main .education-area{
     padding: 8rem 8rem 5em 8rem;
     margin-bottom: 5%;
@@ -151,7 +151,7 @@
     padding: 0.4rem 0;
 }
 
-
+*/
 /* end education area */
 
 /* start experiences area */
@@ -199,13 +199,14 @@
     width: auto;
 }
 
-.site-main .project-area .grid{
-    box-sizing: border-box;
-}
-
 .site-main .project-area .project-title h2 > span{
     font: normal bold 49px/60px var(--roboto);
     letter-spacing: 10px;
+}
+
+/*
+.site-main .project-area .grid{
+    box-sizing: border-box;
 }
 
 .site-main .project-area .button-group button{
@@ -222,6 +223,7 @@
 .site-main .project-area .grid .our-project .img a:hover img{
     filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
+*/
 
 /* end projects area */
 
