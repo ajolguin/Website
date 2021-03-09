@@ -107,6 +107,26 @@
 
 }
 
+/* if the viewport is equal to 1356px or less than that */ 
+@media only screen and (max-width: 1096px){
+
+    .site-main .site-banner .site-title h1{
+        font-size: 3em !important;
+    }
+
+
+}
+
+/* if the viewport is equal to 1356px or less than that */ 
+@media only screen and (max-width: 1356px){
+
+    .site-main .site-banner .site-title h1{
+        font-size: 4em;
+    }
+
+
+}
+
 
 
 /* if the viewport is equal to 1910px or less than that */ 

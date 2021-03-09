@@ -61,7 +61,7 @@
 .site-main .site-banner .site-title h3::after{
     content: "";
     height: 2px;
-    width: 18vw;
+    width: 18.5vw;
     background: black;
     display: inline-block;
     margin-left: 5%;
@@ -194,6 +194,11 @@
     box-sizing: border-box;
 }
 
+.site-main .project-area .project-title h2 > span{
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 10px;
+}
+
 .site-main .project-area .button-group button{
     background: transparent;
     border: none;
@@ -214,7 +219,7 @@
 /* start services area */
 
 .site-main .services-area{
-    padding: 0rem 2rem 6rem 0rem;
+    padding: 2rem 2rem 10rem 0rem;
 }
 
 .site-main .services-area .services-title{
@@ -223,6 +228,11 @@
 
 .site-main .services-area .services-title h1{
     font-size: 35px;
+}
+
+.site-main .services-area .services-title h2 > span{
+    font: normal bold 49px/60px var(--roboto);
+    letter-spacing: 10px;
 }
 
 .site-main > .services-area .services{
