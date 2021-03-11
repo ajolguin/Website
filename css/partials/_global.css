@@ -106,3 +106,63 @@ button:focus, button:active button:hover .btn:active, .btn.active{
 html{
     scroll-behavior: smooth;
 }
+
+.inline-block{
+    display: inline-block !important;
+}
+
+.rounded-full{
+    border-radius: 9999px !important;
+}
+
+.tracking-wide{
+    letter-spacing: .025em !important;
+}
+
+.shadow{
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px 0 rgba(0,0,0,.06)!important;
+}
+
+.bg-gray-600{
+    background-color: rgba(113,128,150);
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+}
+
+.bg-primary-600{
+    background-color: var(--primary-color);
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+}
+
+.bg-blue-600{
+    background-color: rgba(49,130,206);
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+}
+
+.bg-primary2-600{
+    background-color: var(--primary-color2);
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+}
+
+
+.bg-black-600{
+    background-color: black;
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+}
+
+.bg-red-600{
+    background-color: #e53e3e;
+    --bg-opacity: 1 !important;
+    color: white;
+    font-weight: 600;
+
+}
