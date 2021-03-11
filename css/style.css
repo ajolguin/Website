@@ -206,6 +206,7 @@
 .site-main .project-area .projectPhotos{
     max-width: 100%;
     max-height: 100%;
+    border-radius: 0.75rem;
 }
 
 .site-main .project-area .site-buttons .button{
