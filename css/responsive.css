@@ -132,6 +132,10 @@
     .site-main .project-area .responsive-reverse{
         flex-wrap: wrap-reverse;
     }
+
+    .site-main .project-area .ps-5{
+        padding-left: 12px !important
+    }
 }
 
 
