@@ -111,7 +111,7 @@
 
     .site-main .about-area .about-image{
         content: url("/img/adrian-bitmoji.png");
-        width: 100%;
+        width: 80% !important;
         margin: 0 auto;
     }
 
@@ -125,7 +125,7 @@
 
     .site-main .about-area .about-image{
         content: url("/img/adrian-bitmoji.png");
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
 
