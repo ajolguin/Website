@@ -166,3 +166,11 @@ html{
     font-weight: 600;
 
 }
+
+.references{
+    color: var(--primary-color) !important;
+}
+
+.references:hover{
+    color: var(--primary-color2) !important;
+}

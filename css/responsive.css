@@ -22,6 +22,15 @@
 
 }
 
+/* if the viewport is 394px or less than that */ 
+@media only screen and (max-width: 394px){
+
+    .site-main .project-area .site-buttons .inline-button{
+        margin: 0 !important;
+    }
+
+}
+
 /* if the viewport is equal to 767px or less than that */ 
 @media only screen and (max-width: 767px){
 
@@ -109,6 +118,10 @@
         margin-bottom: 5%;
     }
 
+    .site-main .project-area .site-buttons .inline-button{
+        margin: 0;
+    }
+
     .site-main .about-area .about-image{
         content: url("/img/adrian-bitmoji.png");
         width: 80% !important;
@@ -146,6 +159,24 @@
         font-size: 3em;
     }
 
+
+}
+
+/* if the viewport is between 991px & 1108px or less than that */ 
+@media only screen and (min-width: 991px) and (max-width: 1108px){
+
+    .site-main .project-area .site-buttons .inline-button{
+        margin: 5px 0 0 0 !important;
+    }
+
+}
+
+/* if the viewport is between 1108px & 1204px or less than that */ 
+@media only screen and (min-width: 1108px) and (max-width: 1204px){
+
+    .site-main .project-area .site-buttons .inline-button{
+        margin: 0 0 0 2px !important;
+    }
 
 }
 
