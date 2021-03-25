@@ -54,7 +54,11 @@
 
     .site-main .project-area,
     .site-main .experiences-area{
-        padding: 7rem 4% 0 4%
+        padding: 7rem 4% 0 4%;
+    }
+
+    #seeuiux{
+        padding: 2rem 4% 0 4%;
     }
 
     .site-main .about-area .about-title h2,
