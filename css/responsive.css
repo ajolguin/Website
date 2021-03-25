@@ -67,7 +67,9 @@
     .site-main .education-area .education-title h2 > span,
     .site-main .projects-area .projects-title h2 > span,
     .site-main .experiences-area .experiences-title h2 > span,
-    .site-main .services-area .services-title h2 > span{
+    .site-main .services-area .services-title h2 > span,
+    .site-main .project-area .project-title h2 > span
+    {
         font-size: 36px;
         letter-spacing: 5px;
     }
