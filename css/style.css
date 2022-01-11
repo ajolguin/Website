@@ -89,8 +89,13 @@
     margin-right: 3%
 }
 
-.site-main .site-banner .modal-body .formInput{
+.site-main .site-banner .modal-body .formInput, 
+.site-main .site-banner .modal-body button{
     width: 100%;
+}
+
+.site-main .site-banner .modal-body button{
+    margin: 5px 0 5px 0;
 }
 
 .typeWriter {
