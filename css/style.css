@@ -89,6 +89,10 @@
     margin-right: 3%
 }
 
+.site-main .site-banner .modal-body .formInput{
+    width: 100%;
+}
+
 .typeWriter {
     overflow: hidden;
     border-right: .2em solid var(--primary-color); /* The typwriter cursor */

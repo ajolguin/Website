@@ -79,10 +79,34 @@
           <div class="col-lg-6 col-md-12 site-title">
             <h3 class="title-text">Hello I'm</h3>
             <h1 class="title-text text-uppercase">Adrian Olguin</h1>
-            <h4 class="title-text text-uppercase typeWriter">Web Dev & UI/UX Designer</h4>
+            <h4 class="title-text text-uppercase typeWriter text-center">Web Dev & UI/UX Designer</h4>
             <div class="site-buttons">
               <div class="d-flex flex-row flex-wrap">
-                <a href="mailto:adrian@aolguin.com"><button class="btn button primary-button mr-4 text-uppercase">Contact Me</button></a>
+                <button class="btn button primary-button mr-4 text-uppercase" data-toggle="modal" data-target="#modalPopup">Contact Me</button>
+                <!--Modal Popup-->
+                <div class="modal fade" id="modalPopup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Contact Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <form name="contact" method="POST" data-netlify="true">
+                          <label>Name:</label>
+                          <input class="formInput" type="text" name="name" />  
+                          <label>Email:</label>
+                          <input class="formInput" type="email" name="email" />
+                          <label>Message:</label>
+                          <textarea class="formInput" name="message"></textarea>
+                          <button type="button" class="btn btn-primary">Submit</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
